@@ -160,6 +160,23 @@ free-association: e.g. for sincere betrayal-anger, "et tu, Brute" looks
 on-path but its predominant register is mock-reproach — offer it only for
 comic use.
 
+5. **If the bounded synonym set is exhausted:** expand in tiers, flagging each
+   addition with its actual path so the caller knows how far the output has
+   drifted from the original target.
+   - *Tier 1 — sibling tertiary (same secondary):* pull from the other
+     tertiary under the same secondary feeling (e.g., Hopeful exhausted →
+     draw from Inspired, both under Happy → Optimistic). Flag each as
+     `(adjacent: Core → Secondary → SiblingTertiary)`.
+   - *Tier 2 — cousin paths (same core):* expand to tertiaries under other
+     secondaries within the same core emotion. Flag each as
+     `(extended: Core → OtherSecondary → Tertiary)`.
+   - *Tier 3 — model inference:* as a last resort, offer model-generated
+     synonyms marked `(inferred, ~Core → Secondary → Tertiary)`. This
+     explicitly breaks the path-bounding guarantee — make that visible.
+
+   Each tier is progressively less guaranteed to land on the original feeling.
+   Stop at the tier that satisfies the request.
+
 ---
 
 ## Worked examples
